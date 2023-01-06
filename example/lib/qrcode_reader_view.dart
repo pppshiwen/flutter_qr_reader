@@ -47,7 +47,7 @@ class QrcodeReaderViewState extends State<QrcodeReaderView> with TickerProviderS
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.addObserver(this);
+    WidgetsBinding.instance.addObserver(this);
     showScanView();
   }
 
